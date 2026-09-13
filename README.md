@@ -52,33 +52,6 @@ The application will open in the browser at:
 http://localhost:8501
 ```
 
-## Example
-
-Input:
-
-```text
-Artificial Intelligence is
-```
-
-The AI model will generate text continuing from the given sentence.
-
-## Project Structure
-
-```text
-AI_Text_Generator/
-│
-├── app.py
-└── README.md
-```
-
-## Model
-
-This project uses:
-
-**EleutherAI GPT-Neo 125M**
-
-The model is accessed through the Hugging Face Transformers pipeline for text generation.
-
 ## Conclusion
 
 This project demonstrates how a pre-trained language model can be integrated with Streamlit to create a simple AI text generation application. It is useful for understanding basic Natural Language Processing and generative AI concepts.
